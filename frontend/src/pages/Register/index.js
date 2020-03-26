@@ -22,7 +22,7 @@ export default function Register()
 
     async function handleRegister(e)
     {       
-        e.preventDefaul();
+        e.preventDefault();
         const data = 
         {
             name,
